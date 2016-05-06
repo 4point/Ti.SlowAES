@@ -179,3 +179,5 @@ var cryptoHelpers = {
 	},
 	
 };
+
+module.exports = cryptoHelpers;

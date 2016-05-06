@@ -1,6 +1,13 @@
 <h1>Ti.SlowAES</h1>
 
-SlowAES wrapper for Titanium Mobile
+SlowAES wrapper for Titanium Mobile (fork for update to Ti SDK 5.2.2.GA with built for device)
+
+````
+var jsHash = require('SlowAES/jsHash');
+var cryptoHelpers = require('SlowAES/cryptoHelpers');
+var aes = require('SlowAES/aes');
+var SlowAES = require('SlowAES/Ti.SlowAES');
+````
 
 <h2>Example</h2>
 

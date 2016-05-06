@@ -28,9 +28,6 @@ function merge(inputValue,defaultValue){
 var wrapper = function(options){
 	
 	var fOpts = mixin(DEFAULTS,options);
-	Ti.include(fOpts.path +'SlowAES/jsHash.js');
-	Ti.include(fOpts.path +'SlowAES/cryptoHelpers.js');
-	Ti.include(fOpts.path +'SlowAES/aes.js');
 
     var keySizeInBits  = merge(fOpts.keySizeInBits,slowAES.aes.keySize.SIZE_256);
     var keySizeInBytes = merge(fOpts.keySizeInBytes,keySizeInBits/8);

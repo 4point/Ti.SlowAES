@@ -136,3 +136,5 @@
 		str_sha256:function(s){return this.binb2str(this.core_sha256(this.str2binb(s),s.length * this.chrsz));}
 	}
  };
+
+ module.exports = jsHash;

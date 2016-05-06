@@ -778,3 +778,5 @@ var slowAES = {
 	 * END MODE OF OPERATION SECTION
 	 */
 };
+
+module.exports = slowAES;
